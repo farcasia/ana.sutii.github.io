@@ -1,23 +1,23 @@
 # Site settings
 email: 
-baseurl: ""
+baseurl: "https://farcasia.github.io/"
 paginate: 5
 paginate_path: "/blog/page-:num"
 google_analytics: 
 
 # SEO settings
-title: Trophy
-description: 
+title: Ana Sutii blogs
+description: Personal blog website of Ana Sutii
 url: "https://farcasia.github.io/"
-twitter_username: 
+twitter_username: a_farcasi
 default_img: 
 
 # Profile settings
-name: 
+name: Ana Maria Sutii
 profile_img: 
 profile: 
 social:
-  github: 
+  github: farcasia
 
 # Build settings
 exclude: ["_screenshots", "Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md"]

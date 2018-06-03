@@ -3,9 +3,9 @@ layout: post
 title: "ICanBeCreatedProg"
 date: 2018-06-3
 categories:
-  - Juice
+  - MPS
 description:
-image: ../_images/IMG_6414.JPG 
-image-sm: ../_images/IMG_6414.JPG 
+image: /assets/img/IMG_6414.JPG
+image-sm: /assets/img/IMG_6414.JPG
 ---
 Will come soon

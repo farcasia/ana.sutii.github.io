@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ana Sutii&#39;s blogs</title>
+    <description>Personal blog website of Ana Sutii</description>
+    <link>https://farcasia.github.io//</link>
+    <atom:link href="https://farcasia.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 13 Aug 2019 22:08:25 +0200</pubDate>
+    <lastBuildDate>Tue, 13 Aug 2019 22:08:25 +0200</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Pseudo-types in Postgresql</title>
+        <description>&lt;p&gt;The what and how of pseudo-types in Postgresql&lt;/p&gt;
+
+&lt;p&gt;Postgresql’s type system is much more different than the type system of the
+mainstream programming languages, such as Java and C#.
+It probably has to do with maintaining the efficiency of the database, I guess.&lt;/p&gt;
+
+&lt;p&gt;Pseudo-types are used as in and out parameters of postgresql functions, but
+they cannot be used as types for columns, or variable declarations.&lt;/p&gt;
+
+&lt;p&gt;Let’s see pseudo-types at work. I will show you three examples,&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/farcasia/2695a1f1a8578355be602e25d5241c79.js&quot;&gt;&lt;/script&gt;
+
+&lt;h3 id=&quot;postgresql-used-in-code-snippets&quot;&gt;Postgresql used in code snippets:&lt;/h3&gt;
+
+&lt;h3 id=&quot;bibliography&quot;&gt;Bibliography&lt;/h3&gt;
+
+</description>
+        <pubDate>Sun, 26 May 2019 00:00:00 +0200</pubDate>
+        <link>https://farcasia.github.io//2019/05/26/Pseudo-types-in-Postgresql/</link>
+        <guid isPermaLink="true">https://farcasia.github.io//2019/05/26/Pseudo-types-in-Postgresql/</guid>
+        
+        
+        <category>Postgresql</category>
+        
+      </item>
+    
+  </channel>
+</rss>

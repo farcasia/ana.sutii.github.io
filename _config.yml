@@ -18,6 +18,8 @@ profile_img: /assets/img/IMG_6239.JPG
 profile: Ana Maria Sutii 
 social:
   github: https://github.com/farcasia
+  linkedin: https://www.linkedin.com/in/ana-maria-sutii-7b246a23
+  twitter: https://twitter.com/a_farcasi
 
 # Build settings
 exclude: ["_screenshots", "Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md"]

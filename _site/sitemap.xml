@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://farcasia.github.io//2019/05/26/Pseudo-types-in-Postgresql/</loc>
-<lastmod>2019-05-26T00:00:00+02:00</lastmod>
+<loc>https://farcasia.github.io//2019/10/03/Improv-guidelines/</loc>
+<lastmod>2019-10-03T00:00:00+02:00</lastmod>
 </url>
 <url>
 <loc>https://farcasia.github.io//archive/</loc>
@@ -11,6 +11,6 @@
 <loc>https://farcasia.github.io//</loc>
 </url>
 <url>
-<loc>https://farcasia.github.io//category/postgresql/</loc>
+<loc>https://farcasia.github.io//category/improv/</loc>
 </url>
 </urlset>

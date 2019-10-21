@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Improv theater guidelines"
+title: "8 rules to pump up your improv theater game"
 date: 2019-10-03
 categories:
   - improv

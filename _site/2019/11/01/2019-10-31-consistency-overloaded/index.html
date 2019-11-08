@@ -1,0 +1,25 @@
+<p>Part of my continuous struggle to become a better version of myself is reading at least a technical book a month (or a few chapters, if the book is very theoretical or on a subject that I am not familiar with). This month I am all into the fundamentals of data applications with the book <a target="_blank" href="https://www.amazon.com/gp/product/1449373321/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1449373321&amp;linkCode=as2&amp;tag=farcasia-20&amp;linkId=c3c5d9a87595e26b578a02bdb6edbc40">Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=farcasia-20&amp;l=am2&amp;o=1&amp;a=1449373321" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />. I’m impressed with this book. The breadth of subjects is at points overwhelming, but definitely worth sticking to it.</p>
+
+<p>While reading the book, one thing that struck me, and that I did not consider before are the different meanings of the word consistency in the CAP theorem and ACID transactions.</p>
+
+<p>In the following two sections I will go into the meaning of C in ACID and CAP, and into the history of how these acronyms came to be. Often, understanding the history helps us better understand the concepts.</p>
+
+<h2> Consistency as in the C of ACID transactions </h2>
+<p>Let us first go a bit into the history of the C in ACID.
+The first paper where transactions are defined in terms of ACID properties (without the I in this paper, and without mentioning ACID), is the following: “The transaction concept: Virtues and Limitations”
+https://www.hpl.hp.com/techreports/tandem/TR-81.3.pdf
+Here, the definition of consistency is “Consistency: the transaction must obey legal protocols.” Later in the paper: “The system provides actions which read and transform the values of records and devices. A collection of actions which comprise a consistent transformation of the state may be grouped to form a transaction. Transactions preserve the system consistency constraints - they obey the laws by transforming consistent states into new consistent states.”
+The paper that coined the word ACID is “Principles of Transaction-Oriented Database Recovery” https://web.stanford.edu/class/cs340v/papers/recovery.pdf
+“A transaction reaching its normal end (EOT, end of transaction), thereby committing its results, preserves the consistency of the database. In other words, each successful transaction by definition commits only legal results.”
+Admittedly, these definitions are not very precise. As also suggested by Martin Kleppman, maintaining consistency is the responsibility of the application developers. They are the ones that need to make sure the data adheres to certain invariants before and after the execution of the transaction. An example of such an invariant could be the following: the amount of money in an account should never go below zero.</p>
+
+<h2> Consistency as in the C of the CAP theorem </h2>
+<p>https://users.ece.cmu.edu/~adrian/731-sp04/readings/GL-cap.pdf</p>
+
+<p>The CAP theorem, also named Brewer’s conjecture, was first mentioned in an invited talk at the PODC (Principles of Distributed Computing) conference. The conjecture, stating the impossibility of having both consistency and availability in the presence of network partitions, was published in “Brewer’s Conjecture and the Feasibility of Consistent, Available, Partition-Tolerant Web Services”. Here, consistency is defined as follows “Under this consistency guarantee, there must exist a total order on all operations such that each operation looks as if it were completed at a single instant.” The context for this theorem is a distributed datastore, with replicas (so-called instant in the quote)  containing copies of the data.
+Thus, in the CAP theorem, consistency is equivalent to the so-called linearizability property. Linearizability gives the impression that there is just one copy of the database, even in the presence of multiple replicas. Thus, whenever any client reads any data, that data is the most recently written data. How that is achieved is a completely different story.</p>
+
+<h2> Conclusion </h2>
+<p>Hopefully you now have a better idea of the difference in meaning of consistency between the CAP theorem and ACID transactions. It’s a basic thing, but anything fancy must be built on a strong foundation, made of basics.
+Keep on digging the basics! Until next time!</p>
+

@@ -5,9 +5,42 @@
     <description>Personal blog website of Ana Sutii</description>
     <link>https://farcasia.github.io//</link>
     <atom:link href="https://farcasia.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 21 Oct 2019 18:01:29 +0200</pubDate>
-    <lastBuildDate>Mon, 21 Oct 2019 18:01:29 +0200</lastBuildDate>
+    <pubDate>Fri, 08 Nov 2019 11:35:11 +0100</pubDate>
+    <lastBuildDate>Fri, 08 Nov 2019 11:35:11 +0100</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>On the different meanings of consistency in the CAP theorem and ACID transactions</title>
+        <description>&lt;p&gt;Part of my continuous struggle to become a better version of myself is reading at least a technical book a month (or a few chapters, if the book is very theoretical or on a subject that I am not familiar with). This month I am all into the fundamentals of processing and storing data, laid out in the book &lt;a target=&quot;_blank&quot; href=&quot;https://www.amazon.com/gp/product/1449373321/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=1449373321&amp;amp;linkCode=as2&amp;amp;tag=farcasia-20&amp;amp;linkId=c3c5d9a87595e26b578a02bdb6edbc40&quot;&gt;Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems&lt;/a&gt;. This is truly an impressive book. The breadth of subjects is at points overwhelming, but definitely worth sticking to it.&lt;/p&gt;
+
+&lt;p&gt;While reading the book, one thing that struck me, and that I did not consider before are the different meanings of the word consistency in the CAP theorem and ACID transactions. In the following two sections I will go into the meaning of C (standing for consistency) in ACID and CAP, and into the history of how these acronyms came to be. Understanding the history often helps us better understand the concepts.&lt;/p&gt;
+
+&lt;h2&gt; C for consistency in ACID transactions &lt;/h2&gt;
+&lt;p&gt;The first paper where database transactions are defined in terms of ACID properties (without actually mentioning the ACID acronym, and without treating the I in ACID), is the following: &lt;a target=&quot;_blank&quot; href=&quot;https://www.hpl.hp.com/techreports/tandem/TR-81.3.pdf&quot;&gt;The transaction concept: Virtues and Limitations&lt;/a&gt;
+Here, the definition of consistency is “Consistency: the transaction must obey legal protocols.” Later in the paper: “The system provides actions which read and transform the values of records and devices. A collection of actions which comprise a consistent transformation of the state may be grouped to form a transaction. Transactions preserve the system consistency constraints - they obey the laws by transforming consistent states into new consistent states.”&lt;/p&gt;
+
+&lt;p&gt;The paper that coined the word ACID is &lt;a target=&quot;_blank&quot; href=&quot;https://web.stanford.edu/class/cs340v/papers/recovery.pdf&quot;&gt;Principles of Transaction-Oriented Database Recovery&lt;/a&gt; 
+“A transaction reaching its normal end (EOT, end of transaction), thereby committing its results, preserves the consistency of the database. In other words, each successful transaction by definition commits only legal results.”
+Admittedly, these definitions are not very precise. As also suggested by Martin Kleppman, maintaining consistency is the responsibility of the application developers. They are the ones that need to make sure the data adheres to certain invariants before and after the execution of the transaction. An example of such an invariant could be the following: the amount of money in an account should never go below zero.&lt;/p&gt;
+
+&lt;h2&gt; Consistency as in the C of the CAP theorem &lt;/h2&gt;
+&lt;p&gt;The CAP theorem, also named Brewer’s conjecture, was first mentioned in an invited talk at the PODC (Principles of Distributed Computing) conference. The conjecture, stating the impossibility of having both consistency and availability in the presence of network partitions, was published in &lt;a target=&quot;_blank&quot; href=&quot;https://users.ece.cmu.edu/~adrian/731-sp04/readings/GL-cap.pdf&quot;&gt;Brewer’s Conjecture and the Feasibility of Consistent, Available, Partition-Tolerant Web Services&lt;/a&gt;. Here, consistency is defined as follows “Under this consistency guarantee, there must exist a total order on all operations such that each operation looks as if it were completed at a single instant.” The context for this theorem is a distributed datastore, with replicas (so-called instant in the quote)  containing copies of the data.&lt;/p&gt;
+
+&lt;p&gt;In the CAP theorem, consistency is equivalent to the so-called linearizability property. Linearizability gives the impression that there is just one copy of the database, even in the presence of multiple replicas. Thus, whenever any client reads any data, that data is the most recently written data. How that is achieved is a completely different story.&lt;/p&gt;
+
+&lt;h2&gt; Conclusion &lt;/h2&gt;
+&lt;p&gt;Hopefully you now have a better idea of the difference in meaning of consistency between the CAP theorem and ACID transactions. It’s a basic thing, but anything fancy must be built on a strong foundation, made of basics.
+Keep on digging the basics! Until next time!&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 03 Oct 2019 00:00:00 +0200</pubDate>
+        <link>https://farcasia.github.io//2019/10/03/consistency-overloaded/</link>
+        <guid isPermaLink="true">https://farcasia.github.io//2019/10/03/consistency-overloaded/</guid>
+        
+        
+        <category>technical; databases</category>
+        
+      </item>
     
       <item>
         <title>8 rules to pump up your improv theater game</title>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>https://farcasia.github.io//2019/10/03/consistency-overloaded/</loc>
+<lastmod>2019-10-03T00:00:00+02:00</lastmod>
+</url>
+<url>
 <loc>https://farcasia.github.io//2019/10/03/Improv-theater-guidelines/</loc>
 <lastmod>2019-10-03T00:00:00+02:00</lastmod>
 </url>
@@ -12,5 +16,8 @@
 </url>
 <url>
 <loc>https://farcasia.github.io//category/improv/</loc>
+</url>
+<url>
+<loc>https://farcasia.github.io//category/technical-databases/</loc>
 </url>
 </urlset>

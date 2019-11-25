@@ -5,8 +5,8 @@
     <description>Personal blog website of Ana Sutii</description>
     <link>https://farcasia.github.io//</link>
     <atom:link href="https://farcasia.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 25 Nov 2019 13:44:13 +0100</pubDate>
-    <lastBuildDate>Mon, 25 Nov 2019 13:44:13 +0100</lastBuildDate>
+    <pubDate>Mon, 25 Nov 2019 20:45:23 +0100</pubDate>
+    <lastBuildDate>Mon, 25 Nov 2019 20:45:23 +0100</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -71,7 +71,7 @@ Ironic situation: Kevin names all sorts of small clues to the intern detective, 
       </item>
     
       <item>
-        <title>On the different meanings of consistency in the CAP theorem and ACID transactions</title>
+        <title>Consistency in the CAP theorem vs. consistency in ACID transactions</title>
         <description>&lt;p&gt;On the path of becoming a better version of myself, I am trying to read at least a technical book a month (or a few chapters, if the book is very theoretical or on a subject that I am not familiar with). This month I am all into the fundamentals of processing and storing data, laid out in the book &lt;a target=&quot;_blank&quot; href=&quot;https://www.amazon.com/gp/product/1449373321/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=1449373321&amp;amp;linkCode=as2&amp;amp;tag=farcasia-20&amp;amp;linkId=c3c5d9a87595e26b578a02bdb6edbc40&quot; rel=&quot;nofollow&quot;&gt;Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems&lt;/a&gt; &lt;a href=&quot;#ref&quot;&gt;*&lt;/a&gt; by Martin Kleppmann. This is truly an impressive book in terms of breadth of concepts and tools in the realm of data applications. Admittedly, at points it can be overwhelming, but it is definitely worth sticking to it.&lt;/p&gt;
 
 &lt;p&gt;While reading the book, one thing that struck me, that I did not consider before, are the different meanings of the word consistency in the CAP theorem and ACID transactions. In the following two sections, I will go into the meaning of C (standing for consistency) in ACID and CAP, and into the history of how these acronyms came to be. Understanding the history often helps us better understand the concepts.&lt;/p&gt;

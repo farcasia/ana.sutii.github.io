@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "On the different meanings of consistency in the CAP theorem and ACID transactions"
+title: "Consistency in the CAP theorem vs. consistency in ACID transactions"
 date: 2019-11-09
 categories:
   - technical 

@@ -13,11 +13,11 @@ I have recently had an amazing improv theater workshop with <a href="https://www
 
 Depending on your level of improv, many of the following guidelines might be basic and obvious. For others they might be eye openers. No matter what category you are in, I find it useful to have these rules spelled out and ready to be skimmed through from time to time.
 
-The following guidelines and tricks are mere tools to be drawn out of your toolbox in improv scenes.
+[comment]: <>The following guidelines and tricks are mere tools to be drawn out of your toolbox in improv scenes.
 
-<figure>
-  <img src="/assets/img/Toolbox.png" alt="Placeholder"/>
-</figure>
+[comment]: <><figure>
+[comment]: <>  <img src="/assets/img/Toolbox.png" alt="Placeholder"/>
+[comment]: <></figure>
 
 Another way of looking at these guidelines is as at guardrails on a road (metaphor depicted in the main image of this blog post). You can switch lanes, go left, go right, but always within the guardrails. There is an infinite space of creativity within these guardrails. Of course, good improvisers sometimes play with the rules, and they manage to make it work wonderfully.
 

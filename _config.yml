@@ -3,7 +3,7 @@ email: farcasia@gmail.com
 baseurl: ""
 paginate: 5
 paginate_path: "/blog/page-:num"
-google_analytics: UA-120263248-1 
+google_analytics: 
 
 # SEO settings
 title: Ana Sutii's blogs

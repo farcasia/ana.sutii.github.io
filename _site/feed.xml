@@ -5,13 +5,13 @@
     <description>Personal blog website of Ana Sutii</description>
     <link>https://farcasia.github.io//</link>
     <atom:link href="https://farcasia.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 24 Jan 2020 22:24:11 +0100</pubDate>
-    <lastBuildDate>Fri, 24 Jan 2020 22:24:11 +0100</lastBuildDate>
+    <pubDate>Fri, 24 Jan 2020 22:26:14 +0100</pubDate>
+    <lastBuildDate>Fri, 24 Jan 2020 22:26:14 +0100</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
         <title>Polymorphic functions and polymorphic types in postgreSQL</title>
-        <description>&lt;p&gt;One thing that caught my eye in postgreSQL is the type system of functions in the SQL procedural language (PL/pgSQL). More specifically, I am talking about &lt;a target=&quot;_blank&quot; href=&quot;https://www.postgresql.org/docs/current/extend-type-system.html#EXTEND-TYPES-POLYMORPHIC&quot;&gt;polymorphic functions and the associated polymorphic types&lt;/a&gt;. The type of polymorphism at play in these functions is &lt;a target=&quot;_blank&quot; href=&quot;https://en.wikipedia.org/wiki/Parametric_polymorphism&quot;&gt;parametric polymorphism&lt;/a&gt;, with some twists, as you shall see in the rest of the article.&lt;/p&gt;
+        <description>&lt;p&gt;One thing that caught my eye in postgreSQL 10 is the type system of functions in the SQL procedural language (PL/pgSQL). More specifically, I am talking about &lt;a target=&quot;_blank&quot; href=&quot;https://www.postgresql.org/docs/current/extend-type-system.html#EXTEND-TYPES-POLYMORPHIC&quot;&gt;polymorphic functions and the associated polymorphic types&lt;/a&gt;. The type of polymorphism at play in these functions is &lt;a target=&quot;_blank&quot; href=&quot;https://en.wikipedia.org/wiki/Parametric_polymorphism&quot;&gt;parametric polymorphism&lt;/a&gt;, with some twists, as you shall see in the rest of the article.&lt;/p&gt;
 
 &lt;p&gt;This is not the first thing someone would find attractive about postgreSQL, but I am very much interested in type systems and their peculiarities. And the type system of postgreSQL polymorphic functions is what I would call peculiar; at least at first sight. That’s mostly because of its restrictions. I was trying to find reasons for why these restrictions are in place, but I could not find any details in the source code comments of postgreSQL, or in the early papers written on postgreSQL. If someone can shed some light on the historical reasons behind these restrictions, I would be most interested in knowing them. In the meantime, I can only try to come up with possible reasons myself.&lt;/p&gt;
 
@@ -37,8 +37,6 @@
 &lt;p&gt;A question you could ask about these polymorphic functions, is what happens if a function with the same name, and more concrete parameter types is present in the database (think of type &lt;code class=&quot;highlighter-rouge&quot;&gt;int&lt;/code&gt; instead of all polymorphic types)? In postgreSQL 10 at least, this more concrete version of the function will take precedence. Thus, be aware of that, or otherwise you might get unexpected behavior.&lt;/p&gt;
 
 &lt;p&gt;Obviously, &lt;code class=&quot;highlighter-rouge&quot;&gt;sum_elements&lt;/code&gt; is only a dummy function, not production-ready, since it completely lacks error handling. It helps illustrate polymorphic functions though, and the extra potential baggage they can bring: non-obvious function parameters, obfuscation by more functions with the same name and more concrete parameters, or more complex error handling code. All this being said, you might still not be able to do without them in certain situations.&lt;/p&gt;
-
-&lt;p&gt;Note that in this blog post I have been using postgreSQL 10.&lt;/p&gt;
 </description>
         <pubDate>Sat, 28 Dec 2019 00:00:00 +0100</pubDate>
         <link>https://farcasia.github.io//2019/12/28/polymorphic-functions-plpgsql/</link>

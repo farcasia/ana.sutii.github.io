@@ -65,7 +65,7 @@
 
   <section class="section-padding bg-grey" itemprop="articleBody">
     <div class="post">
-      <p>One thing that caught my eye in postgreSQL is the type system of functions in the SQL procedural language (PL/pgSQL). More specifically, I am talking about <a target="_blank" href="https://www.postgresql.org/docs/current/extend-type-system.html#EXTEND-TYPES-POLYMORPHIC">polymorphic functions and the associated polymorphic types</a>. The type of polymorphism at play in these functions is <a target="_blank" href="https://en.wikipedia.org/wiki/Parametric_polymorphism">parametric polymorphism</a>, with some twists, as you shall see in the rest of the article.</p>
+      <p>One thing that caught my eye in postgreSQL 10 is the type system of functions in the SQL procedural language (PL/pgSQL). More specifically, I am talking about <a target="_blank" href="https://www.postgresql.org/docs/current/extend-type-system.html#EXTEND-TYPES-POLYMORPHIC">polymorphic functions and the associated polymorphic types</a>. The type of polymorphism at play in these functions is <a target="_blank" href="https://en.wikipedia.org/wiki/Parametric_polymorphism">parametric polymorphism</a>, with some twists, as you shall see in the rest of the article.</p>
 
 <p>This is not the first thing someone would find attractive about postgreSQL, but I am very much interested in type systems and their peculiarities. And the type system of postgreSQL polymorphic functions is what I would call peculiar; at least at first sight. That’s mostly because of its restrictions. I was trying to find reasons for why these restrictions are in place, but I could not find any details in the source code comments of postgreSQL, or in the early papers written on postgreSQL. If someone can shed some light on the historical reasons behind these restrictions, I would be most interested in knowing them. In the meantime, I can only try to come up with possible reasons myself.</p>
 
@@ -91,8 +91,6 @@
 <p>A question you could ask about these polymorphic functions, is what happens if a function with the same name, and more concrete parameter types is present in the database (think of type <code class="highlighter-rouge">int</code> instead of all polymorphic types)? In postgreSQL 10 at least, this more concrete version of the function will take precedence. Thus, be aware of that, or otherwise you might get unexpected behavior.</p>
 
 <p>Obviously, <code class="highlighter-rouge">sum_elements</code> is only a dummy function, not production-ready, since it completely lacks error handling. It helps illustrate polymorphic functions though, and the extra potential baggage they can bring: non-obvious function parameters, obfuscation by more functions with the same name and more concrete parameters, or more complex error handling code. All this being said, you might still not be able to do without them in certain situations.</p>
-
-<p>Note that in this blog post I have been using postgreSQL 10.</p>
 
     </div>
   </section>

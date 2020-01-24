@@ -9,7 +9,7 @@ image: /assets/img/BeFunny2.png
 image-sm: /assets/img/BeFunny2.png
 ---
 
-One aspect I am always struggling with in improv is that of being funny. Unfortunately for people like me, "To be a great one [improviser], you must be funny". The quote is from the book, <a target="_blank" href="https://www.amazon.com/How-Be-Greatest-Improviser-Earth/dp/0982625723/ref=as_li_ss_tl?crid=3RMU5ID19XWB6&keywords=how+to+be+the+greatest+improviser+on+earth&qid=1574537801&sprefix=how+to+be+the+,aps,220&sr=8-1&linkCode=ll1&tag=farcasia-20&linkId=085c4186f627d0be92b7225c2af8a423&language=en_US" rel="nofollow">How to Be the Greatest Improviser on Earth</a> <a href="#ref">\*</a>, from which I have drawn all the wisdom in this blog post.
+One aspect I am always struggling with in improv is that of being funny. Unfortunately for people like me, "To be a great one [improviser], you must be funny". The quote is from the book "How to Be the Greatest Improviser on Earth", from which I have drawn all the wisdom in this blog post.
 
 I usually dislike jokes that break the scene for the sake of a laugh. "The students who try to make jokes and who seem to want badly to be funny - well, at first they can only do those things by breaking reality, by selling out their scene partner, by making jokes that insult the integrity of the scene itself". So how do you get those laughs without affecting the integrity of the scene? The book "How to Be the Greatest Improviser on Earth" has some excellent tips on that. Since there is some ground to cover, this blog post is the first part of a two part series on being funny in improv theater.
 
@@ -60,5 +60,3 @@ Then, at the end of the speech, he says "That’s my rebuttal of the tax plan". 
 You want to be funny in an improv show, but still keep the reality of the scene? Then remember to come up with something surprising, to create patterns, or to be ironic. In the next blog post, we will look at the rest of the means that help create the fun in improv scenes: to be a good voice of reason, to be unnecessarily specific, to care more than expected, and/or to initiate with premise.
 
 Until next time!
-
-<p id="ref">* As an Amazon Associate I earn from qualifying purchases.</p>

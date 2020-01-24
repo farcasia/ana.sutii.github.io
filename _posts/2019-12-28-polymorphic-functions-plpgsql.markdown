@@ -5,8 +5,8 @@ date: 2019-12-28
 categories:
   - technical 
 description: Polymorphic functions and polymorphic types in postgreSQL
-image: /assets/img/Consistency3.png
-image-sm: /assets/img/Consistency3.png
+image: /assets/img/Polymorphism2.png
+image-sm: /assets/img/Polymorphism2.png
 ---
 
 One thing that caught my eye in postgreSQL 10 is the type system of functions in the SQL procedural language (PL/pgSQL). More specifically, I am talking about <a target="_blank" href="https://www.postgresql.org/docs/current/extend-type-system.html#EXTEND-TYPES-POLYMORPHIC">polymorphic functions and the associated polymorphic types</a>. The type of polymorphism at play in these functions is <a target="_blank" href="https://en.wikipedia.org/wiki/Parametric_polymorphism">parametric polymorphism</a>, with some twists, as you shall see in the rest of the article.

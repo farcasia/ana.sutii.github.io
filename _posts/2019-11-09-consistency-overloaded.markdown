@@ -5,8 +5,8 @@ date: 2019-11-09
 categories:
   - technical 
 description: On the different meanings of consistency in the CAP theorem and ACID transactions 
-image: /assets/img/Consistency4.png
-image-sm: /assets/img/Consistency4.png
+image: /assets/img/Consistency6.png
+image-sm: /assets/img/Consistency6.png
 ---
 On the path of becoming a better version of myself, I am trying to read at least a technical book a month (or a few chapters, if the book is very theoretical or on a subject that I am not familiar with). This month I am all into the fundamentals of processing and storing data, laid out in the book "Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems" by Martin Kleppmann. This is truly an impressive book in terms of breadth of concepts and tools in the realm of data applications. Admittedly, at points it can be overwhelming, but it is definitely worth sticking to it.
 

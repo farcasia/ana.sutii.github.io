@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "On being funny in improv theater - part I"
+title: "On being funny in improv theater"
 date: 2019-11-22
 categories:
   - improv
@@ -11,7 +11,7 @@ image-sm: /assets/img/BeFunny2.png
 
 One aspect I am always struggling with in improv is that of being funny. Unfortunately for people like me, "To be a great one [improviser], you must be funny". The quote is from the book "How to Be the Greatest Improviser on Earth", from which I have drawn all the wisdom in this blog post.
 
-I usually dislike jokes that break the scene for the sake of a laugh. "The students who try to make jokes and who seem to want badly to be funny - well, at first they can only do those things by breaking reality, by selling out their scene partner, by making jokes that insult the integrity of the scene itself". So how do you get those laughs without affecting the integrity of the scene? The book "How to Be the Greatest Improviser on Earth" has some excellent tips on that. Since there is some ground to cover, this blog post is the first part of a two part series on being funny in improv theater.
+I usually dislike jokes that break the scene for the sake of a laugh. "The students who try to make jokes and who seem to want badly to be funny - well, at first they can only do those things by breaking reality, by selling out their scene partner, by making jokes that insult the integrity of the scene itself". So how do you get those laughs without affecting the integrity of the scene? The book "How to Be the Greatest Improviser on Earth" has some excellent tips on that. Following are three of those tips.
 
 <h1>How to get those laughs</h1>
 

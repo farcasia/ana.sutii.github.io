@@ -1,9 +1,7 @@
 # Site settings
 email: farcasia@gmail.com 
+permalink: /:year/:month/:day/:title/
 baseurl: ""
-paginate: 5
-paginate_path: "/blog/page-:num"
-google_analytics: 
 
 # SEO settings
 title: Ana Sutii's blogs
@@ -20,15 +18,48 @@ social:
   github: https://github.com/farcasia
   linkedin: https://www.linkedin.com/in/ana-maria-sutii-7b246a23
   twitter: https://twitter.com/a_farcasi
+date_format: "%b %-d, %Y"
 
 # Build settings
-exclude: ["_screenshots", "Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md"]
 markdown: kramdown
-permalink: /:year/:month/:day/:title/
+plugins:
+  - jekyll-paginate-v2
+  - jekyll-sitemap
+  - octopress-autoprefixer
+compress_html:
+  clippings: all
+  comments: all
+  startings: [html, head, body]
+exclude:
+  - _screenshots
+  - .DS_Store
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.txt
+  - README.md
+
+# Pagination
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: "/blog/page-:num"
+  sort_field: 'date'
+  sort_reverse: true
+
+autopages:
+  enabled: true
+  categories: 
+      layouts: 
+        - 'category_index.html'
+      # Optional, the title that each category paginate page should get (:cat is replaced by the Category name)
+      title: ':cat'
+      # Optional, the permalink for the  pagination page (:cat is replaced), 
+      # the pagination permalink path is then appended to this permalink structure
+      permalink: '/category/:cat'
+      slugify:
+        mode: 'default'   # :cat is slugified. Modes: default, raw, pretty, ascii, latin
+        case: false       # Whether to replace all uppercase letters with their lowercase counterparts
 
 # Sass
 sass:
   style: compressed
-
-# Gems
-gems: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer]

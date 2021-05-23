@@ -54,7 +54,8 @@ Main highlights of the static factory method:
 
    This is nicely illustrated in `java.util.Boolean`, in method `valueOf`:
    ```
-   // Returns one of the two static final instances of Boolean that correspond to the true or false primitives. 
+   // Returns one of the two static final instances of Boolean
+   // that correspond to the true or false primitives. 
    public static Boolean valueOf(boolean b) {
      return (b ? TRUE : FALSE);
    }
